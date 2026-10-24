@@ -1,0 +1,13 @@
+// Fibonacci loop
+LOD #0
+STO T1
+LOD #1
+STO T2
+LOD T1
+ADD T2
+STO T3
+LOD T2
+STO T1
+LOD T3
+STO T2
+JMP 5
